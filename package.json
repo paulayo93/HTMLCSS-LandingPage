@@ -1,7 +1,7 @@
 {
   "name": "htmlcss-landingpage",
   "version": "1.0.0",
-  "description": "Build a Rock Climbing Company Landing Page with HTML & CSS - https://pluralsight.com",
+  "description": "Build a Rock Climbing Company Landing Page with HTML & CSS",
   "scripts": {
     "start": "webpack-dev-server",
     "test": "cross-env NODE_ENV=test mocha './test/unit/*.test.js' || true",
@@ -19,14 +19,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pluralsight-projects/HTMLCSS-LandingPage.git"
+    "url": "git+https://github.com/paulayo93/HTMLCSS-LandingPage "
   },
-  "author": "Thomas Bell",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/pluralsight-projects/HTMLCSS-LandingPage/issues"
-  },
-  "homepage": "https://github.com/pluralsight-projects/HTMLCSS-LandingPage#readme",
+  
+ 
   "dependencies": {
     "autoprefixer-loader": "^3.2.0",
     "babel-loader": "^8.0.6",
