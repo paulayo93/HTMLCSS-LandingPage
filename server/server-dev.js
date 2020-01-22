@@ -3,9 +3,9 @@ import express from 'express'
 import webpack from 'webpack'
 import webpackHotMiddleware from 'webpack-hot-middleware'
 import webpackDevMiddleware from 'webpack-dev-middleware'
-import * as config from '../webpack.dev.config.js';
+// import * as config from '../webpack.dev.config.js';
 // const config = require('../webpack.dev.config.js')
-// const config = webpack(require('../webpack.dev.config.js'));
+const config = webpack(require('../webpack.dev.config.js'));
 
 const app = express(),
             DIST_DIR = __dirname,
