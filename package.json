@@ -6,12 +6,16 @@
         "buildDev": "rm -rf dist && webpack --mode development --config webpack.server.config.js && webpack --mode development --config webpack.dev.config.js",
         "buildProd": "rm -rf dist && webpack --mode production --config webpack.server.config.js && webpack --mode production --config webpack.prod.config.js",
         "start": "node ./dist/server.js",
-        "heroku-postbuild": "rm -rf dist && webpack --mode production --config webpack.server.config.js && webpack --mode production --config webpack.prod.config.js"
+        "build": "rm -rf dist && webpack --mode production --config webpack.server.config.js && webpack --mode production --config webpack.prod.config.js"
     },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/paulayo93/HTMLCSS-LandingPage "
     },
+    "engines": {
+        "node": "10.16.3",
+        "npm": "6.9.0"
+      },
     "dependencies": {
         "@babel/core": "^7.7.7",
         "@babel/preset-env": "^7.7.7",
