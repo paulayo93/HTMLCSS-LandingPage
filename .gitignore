@@ -5,9 +5,24 @@ node_modules/
 .DS_Store
 
 # backstopjs
+<<<<<<< HEAD
 backstop_data
 backstop_data/html_report/
 backstop_data/bitmaps_test/
 backstop_data/engine_scripts/
 
 tasks.md
+=======
+backstop_data/
+backstop_data/*
+backstop_data
+backstop_data/html_report/
+backstop_data/bitmaps_test/
+dist/
+
+
+tasks.md
+
+test
+test/
+>>>>>>> production
